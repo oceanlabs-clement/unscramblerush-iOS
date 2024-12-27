@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A202A3F2D1E8F9300443E21 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A202A3E2D1E8F9300443E21 /* MenuViewController.xib */; };
+		7A202A402D1E8F9300443E21 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A202A3D2D1E8F9300443E21 /* MenuViewController.swift */; };
 		7A31BCA62D1D6C1600A54EC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A31BCA52D1D6C1600A54EC6 /* AppDelegate.swift */; };
-		7A31BCA82D1D6C1600A54EC6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A31BCA72D1D6C1600A54EC6 /* SceneDelegate.swift */; };
 		7A31BCAA2D1D6C1600A54EC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A31BCA92D1D6C1600A54EC6 /* ViewController.swift */; };
 		7A31BCAD2D1D6C1600A54EC6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7A31BCAC2D1D6C1600A54EC6 /* Base */; };
 		7A31BCAF2D1D6C1700A54EC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A31BCAE2D1D6C1700A54EC6 /* Assets.xcassets */; };
 		7A31BCB22D1D6C1700A54EC6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7A31BCB12D1D6C1700A54EC6 /* Base */; };
+		7A31BCBC2D1D6E8F00A54EC6 /* ScoreHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A31BCBB2D1D6E8F00A54EC6 /* ScoreHistoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A202A3D2D1E8F9300443E21 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		7A202A3E2D1E8F9300443E21 /* MenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
 		7A31BCA22D1D6C1600A54EC6 /* unscramblerush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = unscramblerush.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A31BCA52D1D6C1600A54EC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7A31BCA72D1D6C1600A54EC6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7A31BCA92D1D6C1600A54EC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7A31BCAC2D1D6C1600A54EC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A31BCAE2D1D6C1700A54EC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A31BCB12D1D6C1700A54EC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A31BCB32D1D6C1700A54EC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A31BCBB2D1D6E8F00A54EC6 /* ScoreHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreHistoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				7A31BCA52D1D6C1600A54EC6 /* AppDelegate.swift */,
-				7A31BCA72D1D6C1600A54EC6 /* SceneDelegate.swift */,
 				7A31BCA92D1D6C1600A54EC6 /* ViewController.swift */,
 				7A31BCAB2D1D6C1600A54EC6 /* Main.storyboard */,
 				7A31BCAE2D1D6C1700A54EC6 /* Assets.xcassets */,
 				7A31BCB02D1D6C1700A54EC6 /* LaunchScreen.storyboard */,
 				7A31BCB32D1D6C1700A54EC6 /* Info.plist */,
+				7A31BCBB2D1D6E8F00A54EC6 /* ScoreHistoryViewController.swift */,
+				7A202A3D2D1E8F9300443E21 /* MenuViewController.swift */,
+				7A202A3E2D1E8F9300443E21 /* MenuViewController.xib */,
 			);
 			path = unscramblerush;
 			sourceTree = "<group>";
@@ -128,6 +134,7 @@
 				7A31BCAF2D1D6C1700A54EC6 /* Assets.xcassets in Resources */,
 				7A31BCB22D1D6C1700A54EC6 /* Base in Resources */,
 				7A31BCAD2D1D6C1600A54EC6 /* Base in Resources */,
+				7A202A3F2D1E8F9300443E21 /* MenuViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A31BCBC2D1D6E8F00A54EC6 /* ScoreHistoryViewController.swift in Sources */,
 				7A31BCAA2D1D6C1600A54EC6 /* ViewController.swift in Sources */,
 				7A31BCA62D1D6C1600A54EC6 /* AppDelegate.swift in Sources */,
-				7A31BCA82D1D6C1600A54EC6 /* SceneDelegate.swift in Sources */,
+				7A202A402D1E8F9300443E21 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,11 +302,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = unscramblerush/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Unscramble Rush";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,9 +316,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.asia.unscramblerush;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -321,11 +335,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = unscramblerush/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Unscramble Rush";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,9 +349,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.asia.unscramblerush;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
